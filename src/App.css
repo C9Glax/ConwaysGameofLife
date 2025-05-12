@@ -1,0 +1,23 @@
+.clickableCell {
+    width: 15px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.clickableCell[alive="alive"]{
+    background-color: #535bf2 !important;
+}
+
+.clickableCell[odd="odd"] {
+    background-color: #213547;
+}
+
+.rows {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+}
